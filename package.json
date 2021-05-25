@@ -1,0 +1,29 @@
+{
+  "name": "Jobs-API",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirelaekic/Jobs-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mirelaekic/Jobs-API/issues"
+  },
+  "homepage": "https://github.com/mirelaekic/Jobs-API#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-list-endpoints": "^5.0.0",
+    "mongoose": "^5.12.11",
+    "passport": "^0.4.1"
+  }
+}
