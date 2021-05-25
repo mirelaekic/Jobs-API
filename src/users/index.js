@@ -3,7 +3,7 @@ const passport = require("passport")
 
 const UserModel = require("./schema")
 const { authenticate, refresh } = require("../auth")
-const { authorize } = require("../auth/middlewares")
+const { authorize } = require("../auth/mdw")
 
 const usersRouter = express.Router()
 
